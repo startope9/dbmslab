@@ -11,3 +11,4 @@ Ratings is given based on reviews of user.
 Sentiment analysis is done using kaggle data set.
 Link of the code used for training model - https://colab.research.google.com/drive/1ctDr4jE7cJ8VhrlwhtCNym8LcdL0iWgj?usp=sharing
 # dbmslabproj
+# dbmslab
