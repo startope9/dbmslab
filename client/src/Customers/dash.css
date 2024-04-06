@@ -1,0 +1,28 @@
+table tr th {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: rgb(44, 232, 44);
+    letter-spacing: 1.cqh;
+}
+
+table tr td {
+    color: azure;
+}
+
+table {
+    column-gap: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: .2em;
+    padding-bottom: .2em;
+}
+
+.room-det tr th,
+.room-det tr td {
+    color: black;
+}

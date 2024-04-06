@@ -1,0 +1,103 @@
+.filters-hotel input {
+    color: white;
+}
+
+.filters-hotel div {
+    margin-bottom: 5px;
+}
+
+.filters-hotel {
+    margin: 5%;
+}
+
+.hotels-display img {
+    width: 300px;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.name-feedback a:hover {
+    text-decoration: underline !important;
+    color: rgb(226, 43, 156) !important;
+}
+
+.anotherpart {
+    text-align: right;
+    float: right;
+}
+
+.anotherpart span {
+    margin: 10px 5px 10px 5px;
+    padding: 5px;
+    color: white;
+    transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.anotherpart span:hover {
+    cursor: pointer;
+    color: burlywood;
+    text-decoration: underline;
+}
+
+
+
+.filters-hotel input {
+    color: white;
+}
+
+.filters-hotel div {
+    margin-bottom: 5px;
+}
+
+.filters-hotel {
+    margin: 5%;
+}
+
+.hotels-display img {
+    width: 300px;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.contain-hotels {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.hotels-display {
+    display: flex;
+    margin: 30px;
+    column-gap: 50px;
+}
+
+.right-photo {
+    width: 100%;
+}
+
+.check-avai-button {
+    text-align: right;
+}
+
+.name-feedback {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-feedback span {
+    transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.name-feedback span:hover {
+    cursor: pointer;
+    color: rgb(226, 43, 156) !important;
+    text-decoration: underline !important;
+}
+
+.hr-vals section {
+    font-size: large;
+    color: white;
+}
+
+.hr-vals span {
+    color: blanchedalmond;
+}

@@ -1,0 +1,61 @@
+.each-review {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.each-review div:first-child {
+    font-size: x-large;
+    color: white;
+}
+
+.each-review span {
+    color: bisque;
+    font-size: small;
+}
+
+.inp-review {
+    margin-top: 10px;
+}
+
+.inp-review input {
+    color: white;
+}
+
+.bookdetails {
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+}
+
+.senior {
+    display: flex;
+    row-gap: 30px;
+    column-gap: 100px;
+    flex-wrap: wrap;
+    margin: 5%;
+    margin-top: 2% !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookdetails legend {
+    color: whitesmoke;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.bookdetails div {
+    margin: 15px;
+    color: cornsilk;
+}
+
+.bookdetails span {
+    border: 2px solid aquamarine;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "660d46d06d6965ed62033b01"
+  },
+  "uid": 12,
+  "hid": 1,
+  "feedback": "This is the best hotel, very good services!!",
+  "remark": 1
+},
+{
+  "_id": {
+    "$oid": "660ea79d0834235e3169f5ff"
+  },
+  "uid": 22,
+  "hid": 1,
+  "feedback": "this is the best hotel I ever stayed!",
+  "remark": 1
+},
+{
+  "_id": {
+    "$oid": "660eaccdb300ac1013a7eded"
+  },
+  "uid": 23,
+  "hid": 1,
+  "feedback": "Bad management and no sanitation",
+  "remark": 0
+},
+{
+  "_id": {
+    "$oid": "660eaccdb300ac1013a7edee"
+  },
+  "uid": 23,
+  "hid": 1,
+  "feedback": "Bad management and no sanitation",
+  "remark": 0
+},
+{
+  "_id": {
+    "$oid": "660eacfeb300ac1013a7edf0"
+  },
+  "uid": 23,
+  "hid": 1,
+  "feedback": "Bad management and no sanitation",
+  "remark": 0
+}]
