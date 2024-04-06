@@ -13,18 +13,18 @@ Link of the code used for training model - https://colab.research.google.com/dri
 
 
 Steps to setup project:<br>
-    1. Clone the repo using command - git clone https://github.com/startope9/dbmslab.git <br>
-    2. Install React, python, mysql workbench for sql, mongodb(along with compass) for nosql.<br>
-    3. Import the database in workbench by using SqlData folder. <br>
-    4. Create database named hotel_mgmt in mongoDB and 2 collections activeHotels and feedback, extract the data from files mongoData for each. <br>
-    5. After cloning and setting up database: <br>
-        i.   Open cmd, navigate to venv directory. <br>
-        ii.  Activate venv(virtual environment) . <br>
-        iii. Install all the libraries using command - pip install -r requirements.txt <br>
-        iv.  Enter the credentials to connect mysql. <br>
-        v.   Start server by running command - python server.py <br>
-    6. Open another command prompt, navigate to client directory and start the react app using command - npm start. <br>
-    7. Tadaa!! application starts, all details are in database!! <br>
+&nbsp;&nbsp;     1. Clone the repo using command - git clone https://github.com/startope9/dbmslab.git <br>
+&nbsp;&nbsp;     2. Install React, python, mysql workbench for sql, mongodb(along with compass) for nosql.<br>
+&nbsp;&nbsp;     3. Import the database in workbench by using SqlData folder. <br>
+&nbsp;&nbsp;     4. Create database named hotel_mgmt in mongoDB and 2 collections activeHotels and feedback, extract the data from files mongoData for each. <br>
+&nbsp;&nbsp;     5. After cloning and setting up database: <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;    i.   Open cmd, navigate to venv directory. <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;    ii.  Activate venv(virtual environment) . <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;    iii. Install all the libraries using command - pip install -r requirements.txt <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;    iv.  Enter the credentials to connect mysql. <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;    v.   Start server by running command - python server.py <br>
+&nbsp;&nbsp;     6. Open another command prompt, navigate to client directory and start the react app using command - npm start. <br>
+&nbsp;&nbsp;     7. Tadaa!! application starts, all details are in database!! <br>
 
 
  Introduction: <br>
@@ -58,37 +58,37 @@ Software Requirement specification: <br>
     of the system. It provides a detailed understanding of the system's scope, objectives, and
     constraints, serving as a blueprint for the development team and stakeholders.
     <br>
-    2.1 Hardware Requirements <br>
-        ● Processor: 11th Gen Intel(R) Core (TM) i5-11300H @ 3.10GHz 2.61 GHz.<br>
-        ● RAM:8.00GB.<br>
-        ● Storage: 256 GB.<br>
-        ● Network: doesn’t work in presence of rvce router’s firewall.<br>
-    2.2 Software Requirements<br>
-        ● Operating System: Compatible with any OS.<br>
-        ● Frameworks: Python, python mysql-connector, pymongo, python-flask.<br>
-        ● Database Server: MySQL, MongoDB.<br>
-        ● Browser: Works well in all browsers.<br>
-    2.3 Functional Requirements<br>
-        ● 1.User Authentication:<br>
-            ○ The system should allow users to log in with valid credentials.<br>
-            ○ Different user roles (admin, staff, guest) should have appropriate access levels.<br>
-        ● 2.Reservation Management:<br>
-            ○ Users should be able to create, modify, and cancel reservations.<br>
-            ○ Thesystem should display real-time room availability.<br>
-        ● 3.Guest Information:<br>
-            ○ Capture and store guest details, including name, contact information, and
-            preferences.<br>
-            ○ Enable quick retrieval of guest information for personalized services.<br>
-        ● 4.Check-in and Check-out:<br>
-            ○ Provide a streamlined process for guest check-in and check-out.<br>
-            ○ Generate and store electronic check-in/check-out records.<br>
-        ● 5.Review and Feedback Management:<br>
-            ○ Allow guests to submit reviews and feedback through the system.<br>
-            ○ Capture unstructured data such as comments, ratings, and suggestions.<br>
-        ● 6.Analysis of Reviews:<br>
-            ○ Implement algorithms for sentiment analysis on reviews to determine positive,
+&nbsp;&nbsp;     2.1 Hardware Requirements <br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     ● Processor: 11th Gen Intel(R) Core (TM) i5-11300H @ 3.10GHz 2.61 GHz.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     ● RAM:8.00GB.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     ● Storage: 256 GB.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     ● Network: doesn’t work in presence of rvce router’s firewall.<br>
+&nbsp;&nbsp;     2.2 Software Requirements<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     ● Operating System: Compatible with any OS.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     ● Frameworks: Python, python mysql-connector, pymongo, python-flask.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     ● Database Server: MySQL, MongoDB.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     ● Browser: Works well in all browsers.<br>
+&nbsp;&nbsp;     2.3 Functional Requirements<br>
+   &nbsp;&nbsp; &nbsp;&nbsp;      ● 1.User Authentication:<br>
+    &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;         ○ The system should allow users to log in with valid credentials.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;         ○ Different user roles (admin, staff, guest) should have appropriate access levels.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     ● 2.Reservation Management:<br>
+    &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;         ○ Users should be able to create, modify, and cancel reservations.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;         ○ Thesystem should display real-time room availability.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     ● 3.Guest Information:<br>
+      &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;       ○ Capture and store guest details, including name, contact information, and
+      &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;       preferences.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;         ○ Enable quick retrieval of guest information for personalized services.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     ● 4.Check-in and Check-out:<br>
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;   ○ Provide a streamlined process for guest check-in and check-out.<br>
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;   ○ Generate and store electronic check-in/check-out records.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     ● 5.Review and Feedback Management:<br>
+    &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;         ○ Allow guests to submit reviews and feedback through the system.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;         ○ Capture unstructured data such as comments, ratings, and suggestions.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     ● 6.Analysis of Reviews:<br>
+    &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;         ○ Implement algorithms for sentiment analysis on reviews to determine positive,
             negative, or neutral sentiments.<br>
-            ○ Store and organize review data for future analysis and reporting.<br>
+    &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;         ○ Store and organize review data for future analysis and reporting.<br>
 
 Entity Relationship Diagram: <br>
     The Entity Relationship Diagram (ERD) serves as a visual representation of the relationships
@@ -111,12 +111,12 @@ Detailed Design: <br>
     processes, illustrating the interactions between external entities and the core components of the
     system. This diagram serves as the foundation for further elaboration and refinement of the
     system's design in subsequent sections. The figures below show the DFD’s of the database system.<br>
-    4.1 DFDLevel 0<br>
-        fig 4.1: DFD Level 0 (copy dfd level 0 image)<br>
-    4.2 DFDLevel 1<br>
-        fig 4.2: DFD Level 1 (copy dfd level 1 image)<br>
-    4.3 DFDLevel 2<br>
-        fig 4.3: DFD Level 2 (copy dfd level 2 image)<br>
+    &nbsp;&nbsp; 4.1 DFDLevel 0<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     fig 4.1: DFD Level 0 (copy dfd level 0 image)<br>
+    &nbsp;&nbsp; 4.2 DFDLevel 1<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     fig 4.2: DFD Level 1 (copy dfd level 1 image)<br>
+    &nbsp;&nbsp; 4.3 DFDLevel 2<br>
+    &nbsp;&nbsp; &nbsp;&nbsp;     fig 4.3: DFD Level 2 (copy dfd level 2 image)<br>
     (Hope you know snipping tool.)<br>
 
 Relational schema and Normalization: <br>
