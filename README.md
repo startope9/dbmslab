@@ -12,7 +12,7 @@ Sentiment analysis is done using kaggle data set.
 Link of the code used for training model - https://colab.research.google.com/drive/1ctDr4jE7cJ8VhrlwhtCNym8LcdL0iWgj?usp=sharing
 
 
-Steps to setup project:
+Steps to setup project:<br>
     1. Clone the repo using command - git clone https://github.com/startope9/dbmslab.git
     2. Install React, python, mysql workbench for sql, mongodb(along with compass) for nosql.
     3. Import the database in workbench by using SqlData folder. 
@@ -28,6 +28,7 @@ Steps to setup project:
 
 Chapter 1
  Introduction
+
     The hotel management system project represents a concerted effort to disrupt conventional
     approaches to booking accommodations and streamline the intricate processes involved in hotel
     management. With a keen focus on user experience enhancement, our primary aim is to rectify the
